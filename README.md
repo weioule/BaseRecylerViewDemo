@@ -1,2 +1,26 @@
 # BaseRecylerViewDemo
 这主要是一个对RecylerViewAdapter进行封装的demo
+
+
+这demo里面主要有：
+
+1，RecycleryViewAdapter的封装：BaseRecylerViewAdapter
+
+2，ViewHolder的封装：BaseViewHolder
+
+3，RecycleryView的分割线的封装：RecyclerViewDivider
+
+4，ListViewAdapter的封装：AbsListAdapter
+
+
+
+BaseRecylerViewAdapter，它可以实现添加头尾布局，而且支持多层头尾添加与多条目列表；还实现了子条目与子条目childView的点击监听和长按箭监听；增删改查都对并发进行了线程安全限制，防止对操作数据的不一致。
+
+BaseViewHolder主要是抽取了findViewById与一些数据填充的方法，避免每次调用的时候去初始化控件再去对view进行填充等造成的代码冗余。
+
+RecyclerViewDivider主要就是封装了常见类型的分割线的尺寸与颜色等。
+
+AbsListAdapter就是对ListAdapter的封装，避免写过多重复的代码。要是不想使用RecycleryView的同学那使用ListViewAdapter做基类也是可以的。
+
+
+
