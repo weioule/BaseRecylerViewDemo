@@ -109,7 +109,7 @@ public abstract class BaseRecylerViewAdapter<E> extends RecyclerView.Adapter<Bas
                 break;
             default:
                 if (mDataLists != null && mDataLists.size() > 0) {
-
+                    //***** 注意：此时的position是adpater的索引，它比mDataLists的索引大getHeaderLayoutCount()
                     E e = mDataLists.get(position - getHeaderLayoutCount());
                     if (null != e) {
                         bindData(viewHolder, e, position);
