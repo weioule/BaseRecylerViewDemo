@@ -27,7 +27,7 @@ AbsListAdapter就是对ListAdapter的封装，避免写过多重复的代码。�
 <br><br>
 multipleentries主要是通过delegate委托的方式对多条目做了组件化处理，对adapter进行简化，布局的设定与数据绑定都放到具体的delegate来实现。
 <br><br>
-adapter只需要添加具体delegate即可，具体的匹配逻辑都放在了委托类ItemViewDelegateManager，这样提示了代码的简洁性和灵活性，以便于后期的维护与拓展。<br><br>
+adapter只需要添加具体delegate即可，具体的匹配逻辑都放在了委托类ItemViewDelegateManager，这样提升了代码的简洁性和灵活性，以便于后期的维护与拓展。<br><br>
 RecyclerViewDivider也做了升级，向着万能分割线迈进，支持分割线前、后、全包、全不包以及跳过n行不绘制分割线等定制化需求，兼容了GridLayoutManager网格布局的支持。
 
 
