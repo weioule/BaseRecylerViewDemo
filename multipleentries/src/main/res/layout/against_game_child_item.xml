@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/game_icon"
+        android:layout_width="73dp"
+        android:layout_height="45dp"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/game_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#FF141414"
+        android:textSize="11sp"
+        tools:text="跳一跳" />
+
+    <TextView
+        android:id="@+id/playing_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF999999"
+        android:textSize="9sp"
+        android:text="999人在玩" />
+</LinearLayout>

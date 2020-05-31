@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="white_color">#ffffff</color>
+    <color name="news_main_title">#2B2A29</color>
+    <color name="theme_line_color">#E6E6E6</color>
+
+    <color name="repayment_black3_6">#666</color>
+    <color name="theme_background_color">#efefef</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="news_header_bg">#fff6d4</color>
+    <color name="news_login_verification">#F83146</color>
+</resources>
